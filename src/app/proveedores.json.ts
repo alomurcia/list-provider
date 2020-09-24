@@ -1,0 +1,30 @@
+import { Proveedor } from './proveedor';
+
+export const PROVEEDORES: Proveedor[] = [
+  {idProvider: 0,
+  razonSocial: 'Empresa S.A',
+  nombComercial: 'Respuesto multimarca JP',
+  matriculaTributaria: '900013245',
+  telefono: '1234567',
+  direccion: 'Calle 123',
+  correo: '123123@123.com',
+  pais: 'colombia',
+  region: 'Norte',
+  ciudad: 'Bogota',
+  paginaWeb: 'www.paginaWeb.com',
+  codigoPostal: '100110',
+  fechaInicio: '01-05-2010',
+  fechaFin: '25-08-2022',
+  descNegociado: '10',
+  intermediacion: '5',
+  sesionAdicional: '6',
+  numContrato: '900000256',
+  termPago: '90',
+  clasifTaller: 'c',
+  actEconomica: 'Venta de llantas',
+  estado: true,
+  redAuto: true,
+  inscSubocol: true,
+  idProvidType: '2',
+  idTiempoResp: '1'}
+];
